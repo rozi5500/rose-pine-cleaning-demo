@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A bilingual sample website for a Portland and Vancouver home cleaning business.">
+<title>Rose & Pine Cleaning | Website Demo</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f9f6ed;color:#26382b;font:17px/1.55 system-ui,sans-serif}html[lang=en] body [lang=uk],html[lang=uk] body [lang=en]{display:none}header,main,footer{max-width:1180px;margin:auto;padding-inline:clamp(20px,5vw,65px)}header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding-block:20px;border-bottom:1px solid #dcded2}.brand{font-family:Georgia,serif;font-size:1.4rem;font-weight:bold}.brand small{display:block;font:600 .65rem system-ui;letter-spacing:.15em;text-transform:uppercase}.langs{display:flex;border:1px solid #a3ad9c;border-radius:100px;padding:3px}button,.button{font:inherit;cursor:pointer}button{border:0;background:none;color:inherit;border-radius:100px;padding:6px 12px}button[aria-pressed=true],.button{background:#244735;color:white}.button{display:inline-block;border-radius:100px;padding:12px 22px;text-decoration:none;font-weight:650}.hero{display:grid;grid-template-columns:1fr 1fr;gap:clamp(25px,5vw,70px);align-items:center;padding-block:55px}.eyebrow{font-size:.75rem;text-transform:uppercase;font-weight:750;letter-spacing:.13em}h1,h2,h3{font-family:Georgia,serif;line-height:1.06;font-weight:normal}h1{font-size:clamp(2.8rem,6vw,5.5rem);letter-spacing:-.055em;margin:.22em 0}h2{font-size:clamp(2.2rem,4vw,3.7rem);margin:.18em 0 .5em}h3{font-size:1.65rem;margin:.6em 0}.hero p{max-width:40ch}.art{width:100%;display:block;border-radius:120px 120px 18px 18px;background:#e2e8d6}.services{padding-block:30px 55px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{border:1px solid #dcded2;border-radius:14px;padding:22px;background:#fffdf7}.card p{margin-bottom:0}.num{color:#5c6955;font-size:.8rem}.contact{background:#244735;color:#f9f6ed;border-radius:18px;padding:clamp(22px,5vw,56px)}.contact .button{background:#e0ebc9;color:#26382b}.contact p{max-width:60ch}footer{padding-block:20px;font-size:.85rem}a:focus-visible,button:focus-visible{outline:3px solid #a15d23;outline-offset:4px}@media(max-width:720px){.hero,.cards{grid-template-columns:1fr}.hero{padding-block:28px}.art{max-height:380px}}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">✦ Rose &amp; Pine <small><span lang="en">Cleaning · Sample website</span><span lang="uk">Клінінг · Приклад сайту</span></small></div>
+<div class="langs" role="group" aria-label="Language / Мова"><button type="button" data-language="en" aria-pressed="true">English</button><button type="button" data-language="uk" aria-pressed="false">Українська</button></div>
+</header>
+<main>
+<section class="hero">
+<div>
+<div class="eyebrow">Portland, OR &amp; Vancouver, WA</div>
+<h1><span lang="en">A clean home.<br>More time for you.</span><span lang="uk">Чистий дім.<br>Більше часу для себе.</span></h1>
+<p lang="en">Home cleaning for busy weeks, fresh starts, and everything in between. Tell us what you need, and we’ll help you pick the right clean.</p>
+<p lang="uk">Прибираємо оселі регулярно, перед переїздом або коли потрібно освіжити дім. Розкажіть, що вам потрібно, і ми підберемо послугу.</p>
+<a class="button" href="#quote"><span lang="en">Get a quote ↗</span><span lang="uk">Дізнатися вартість ↗</span></a>
+</div>
+<svg class="art" viewBox="0 0 500 460" aria-hidden="true">
+<rect width="500" height="460" fill="#dce5cf"/>
+<path d="M0 350H500V460H0Z" fill="#d1a984"/>
+<path d="M0 390H500M0 425H500" stroke="#be9470" stroke-width="2"/>
+<rect x="65" y="54" width="185" height="213" rx="85" fill="#fff4cf"/>
+<path d="M83 202q74-83 150 0v41H83" fill="#a6b68d"/>
+<path d="M157 57v206M68 153h180" stroke="#faf8e8" stroke-width="8"/>
+<ellipse cx="265" cy="410" rx="178" ry="20" fill="#bb9678"/>
+<rect x="148" y="320" width="211" height="63" rx="10" fill="#46604a"/>
+<rect x="157" y="374" width="15" height="31" rx="4" fill="#593e31"/>
+<rect x="335" y="374" width="15" height="31" rx="4" fill="#593e31"/>
+<rect x="165" y="268" width="177" height="79" rx="19" fill="#648065"/>
+<rect x="141" y="309" width="34" height="63" rx="11" fill="#547257"/>
+<rect x="331" y="309" width="34" height="63" rx="11" fill="#547257"/>
+<rect x="201" y="282" width="42" height="45" rx="10" fill="#f1da9c" transform="rotate(-9 220 300)"/>
+<rect x="275" y="285" width="41" height="44" rx="10" fill="#e0a183" transform="rotate(10 295 300)"/>
+<path d="M414 350q-8-70 25-119m-22 91q-31-21-42-68m46 37q22-6 44-40" fill="none" stroke="#466749" stroke-width="7" stroke-linecap="round"/>
+<path d="M439 233q-16-39 20-58 6 39-20 58m-64 25q-31-12-24-44 31 10 24 44m83 1q2-29 33-33-6 28-33 33" fill="#71916a"/>
+<path d="M386 345h59l-10 55h-39Z" fill="#ac674e"/>
+<path d="M324 105l6 17 17 6-17 6-6 17-6-17-17-6 17-6Zm56 47 4 10 10 4-10 4-4 10-4-10-10-4 10-4Z" fill="#fff7dc"/>
+</svg>
+</section>
+<section class="services" aria-labelledby="services">
+<div class="eyebrow"><span lang="en">Cleaning services</span><span lang="uk">Послуги з прибирання</span></div>
+<h2 id="services"><span lang="en">Find the right clean</span><span lang="uk">Оберіть потрібне прибирання</span></h2>
+<div class="cards">
+<article class="card"><div class="num">01</div><h3><span lang="en">Regular cleaning</span><span lang="uk">Регулярне прибирання</span></h3><p lang="en">Weekly, every other week, or monthly. We tidy up surfaces, floors, kitchens, and bathrooms.</p><p lang="uk">Щотижня, раз на два тижні або щомісяця. Прибираємо кухню й ванну, витираємо пил і миємо підлогу.</p></article>
+<article class="card"><div class="num">02</div><h3><span lang="en">Deep cleaning</span><span lang="uk">Генеральне прибирання</span></h3><p lang="en">A more thorough clean for areas that need extra attention, including baseboards and cabinet fronts.</p><p lang="uk">Ретельно прибираємо місця, які потребують особливої уваги, зокрема плінтуси та фасади шафок.</p></article>
+<article class="card"><div class="num">03</div><h3><span lang="en">Move-in / move-out</span><span lang="uk">Прибирання при переїзді</span></h3><p lang="en">Get an empty home ready before you move in or hand over the keys.</p><p lang="uk">Приберемо порожнє помешкання перед заселенням або перед тим, як ви повернете ключі.</p></article>
+</div>
+</section>
+<section class="contact" id="quote" aria-labelledby="quote-title">
+<div class="eyebrow"><span lang="en">Portland metro &amp; Vancouver, WA</span><span lang="uk">Портленд і околиці та Ванкувер (WA)</span></div>
+<h2 id="quote-title"><span lang="en">Tell us about your home</span><span lang="uk">Розкажіть про вашу оселю</span></h2>
+<p lang="en">Have your ZIP code, number of bedrooms and bathrooms, and preferred date handy when you call for a quote.</p>
+<p lang="uk">Для розрахунку вартості підготуйте поштовий індекс, кількість спалень і ванних кімнат та бажану дату.</p>
+<a class="button" href="tel:+15035550147"><span lang="en">Call (503) 555-0147</span><span lang="uk">Зателефонувати (503) 555-0147</span></a>
+<p lang="en"><small>Sample number for this fictional business.</small></p><p lang="uk"><small>Номер наведено для прикладу. Компанія вигадана.</small></p>
+</section>
+</main>
+<footer><span lang="en">Rose &amp; Pine Cleaning · Bilingual website demo</span><span lang="uk">Rose &amp; Pine Cleaning · Приклад двомовного сайту</span></footer>
+<script>
+const languageButtons = document.querySelectorAll('[data-language]');
+for (const button of languageButtons) {
+  button.addEventListener('click', () => {
+    const language = button.dataset.language;
+    document.documentElement.lang = language;
+    document.title = language === 'uk'
+      ? 'Rose & Pine Cleaning | Приклад сайту'
+      : 'Rose & Pine Cleaning | Website Demo';
+    for (const option of languageButtons) {
+      option.setAttribute('aria-pressed', String(option === button));
+    }
+  });
+}
+</script>
+</body>
+</html>
